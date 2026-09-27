@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.aimesh.node"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.aimesh.node"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "0.1"
+    }
+}
